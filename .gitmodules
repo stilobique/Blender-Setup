@@ -16,3 +16,6 @@
 [submodule "GoB"]
 	path = GoB
 	url = git@gitlab.com:stilobique/GoB.git
+[submodule "textools-blender"]
+	path = textools-blender
+	url = git@bitbucket.org:renderhjs/textools-blender.git
