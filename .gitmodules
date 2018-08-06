@@ -19,3 +19,6 @@
 [submodule "textools-blender"]
 	path = textools-blender
 	url = git@bitbucket.org:renderhjs/textools-blender.git
+[submodule "Multi-Object-UV-Editing"]
+	path = Multi-Object-UV-Editing
+	url = git@github.com:Dev-Crea/Multi-Object-UV-Editing.git
