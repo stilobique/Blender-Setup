@@ -3,6 +3,13 @@ All of my blender addons used
 
 This repo contains my personal addons ; a lot of him need more work and a simple description or video to explain this function. If you want test-it don't be afraid, open an issues if you find an error, a bug or anything.
 
+# Install
+Launch the Install.bat to setup all addons. 
+This bat included :
+- symlink.bat : this file generate all symbolic link with blender
+- install_GoB.bat : needed to prepare Zbrush with blender
+
+# Submodule
 ## Advanced Modifier
 More operator to work with all Modifier.
 
