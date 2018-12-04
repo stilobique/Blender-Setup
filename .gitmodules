@@ -25,3 +25,6 @@
 [submodule "yavne"]
 	path = yavne
 	url = git@github.com:fedackb/yavne.git
+[submodule "blender-presets"]
+	path = blender-presets
+	url = git@gitlab.com:stilobique/blender-presets.git
