@@ -1,30 +1,3 @@
-[submodule "SubstanceBridge"]
-	path = SubstanceBridge
-	url = git@gitlab.com:stilobique/SubstanceBridge.git
-[submodule "UE4-Tools"]
-	path = UE4-Tools
-	url = git@gitlab.com:stilobique/UE4-Tools.git
-[submodule "Icon-Header"]
-	path = Icon-Header
-	url = git@gitlab.com:stilobique/Icon-Header.git
-[submodule "Advanced-Modifiers"]
-	path = Advanced-Modifiers
-	url = git@gitlab.com:stilobique/Advanced-Modifiers.git
-[submodule "UV-UI"]
-	path = UV-UI
-	url = git@gitlab.com:stilobique/UV-UI.git
-[submodule "GoB"]
-	path = GoB
-	url = git@gitlab.com:stilobique/GoB.git
-[submodule "textools-blender"]
-	path = textools-blender
-	url = git@bitbucket.org:renderhjs/textools-blender.git
-[submodule "Multi-Object-UV-Editing"]
-	path = Multi-Object-UV-Editing
-	url = git@github.com:Dev-Crea/Multi-Object-UV-Editing.git
-[submodule "yavne"]
-	path = yavne
-	url = git@github.com:fedackb/yavne.git
 [submodule "blender-presets"]
 	path = blender-presets
 	url = git@gitlab.com:stilobique/blender-presets.git
