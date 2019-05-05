@@ -3,28 +3,28 @@
 	url = git@gitlab.com:stilobique/blender-presets.git
 [submodule "blender-addons/Advanced-Modifiers"]
 	path = blender-addons/Advanced-Modifiers
-	url = git@gitlab.com:stilobique/Advanced-Modifiers.git
+	url = git@gitlab.com:stilobique-blender-addons/Advanced-Modifiers.git
 [submodule "blender-addons/GoB"]
 	path = blender-addons/GoB
-	url = git@gitlab.com:stilobique/GoB.git
+	url = git@gitlab.com:stilobique-blender-addons/GoB.git
 [submodule "blender-addons/Icon-Header"]
 	path = blender-addons/Icon-Header
-	url = git@gitlab.com:stilobique/Icon-Header.git
+	url = git@gitlab.com:stilobique-blender-addons/Icon-Header.git
 [submodule "blender-addons/SubstanceBridge"]
 	path = blender-addons/SubstanceBridge
-	url = git@gitlab.com:stilobique/SubstanceBridge.git
+	url = git@gitlab.com:stilobique-blender-addons/SubstanceBridge.git
 [submodule "blender-addons/UE4-Tools"]
 	path = blender-addons/UE4-Tools
-	url = git@gitlab.com:stilobique/UE4-Tools.git
+	url = git@gitlab.com:stilobique-blender-addons/UE4-Tools.git
 [submodule "blender-addons/UV-UI"]
 	path = blender-addons/UV-UI
-	url = git@gitlab.com:stilobique/UV-UI.git
+	url = git@gitlab.com:stilobique-blender-addons/UV-UI.git
 [submodule "blender-addons/yavne"]
 	path = blender-addons/yavne
 	url = git@github.com:fedackb/yavne.git
 [submodule "blender-addons/Multi-Object-UV-Editing"]
 	path = blender-addons/Multi-Object-UV-Editing
-	url = git@github.com:Dev-Crea/Multi-Object-UV-Editing.git
+	url = git@gitlab.com:stilobique-blender-addons/Multi-Object-UV-Editing.git
 [submodule "blender-addons/mesh_check"]
 	path = blender-addons/mesh_check
 	url = git@gitlab.com:stilobique/mesh_check.git
