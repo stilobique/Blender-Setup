@@ -28,3 +28,6 @@
 [submodule "blender-addons/mesh_check"]
 	path = blender-addons/mesh_check
 	url = git@gitlab.com:stilobique/mesh_check.git
+[submodule "blender-addons/blender-pyblish"]
+	path = blender-addons/blender-pyblish
+	url = git@gitlab.com:stilobique-blender-addons/blender-pyblish.git
