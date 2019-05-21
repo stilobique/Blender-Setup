@@ -31,3 +31,6 @@
 [submodule "blender-addons/blender-pyblish"]
 	path = blender-addons/blender-pyblish
 	url = git@gitlab.com:stilobique-blender-addons/blender-pyblish.git
+[submodule "blender-modules/pyblish"]
+	path = blender-modules/pyblish
+	url = git@github.com:pyblish/pyblish-base.git

@@ -13,4 +13,7 @@ call install_GoB.bat
 :: Install Preset
 call install_preset.bat %version% %blender_path%
 
+:: Install Modules
+call install_modules.bat %version% %blender_path%
+
 pause
