@@ -12,6 +12,10 @@ if not exist "%TestFolder2%" mkdir "%TestFolder2%"
 
 :: Generate all Symlink folder
 set subfolder=scripts\presets\operator
-for /d %%d in (*.*) do (MKLINK /D "%blender_path%\%version%\%subfolder%\%%d" "%CD%\%%d")
+for /d %%d in (*.*) do (
+	if %%d neq .idea (
+	MKLINK /D "%blender_path%\%version%\%subfolder%\%%d" "%CD%\%%d"
+	)
+)
 
 cd ..
