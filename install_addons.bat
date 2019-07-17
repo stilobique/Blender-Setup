@@ -14,6 +14,6 @@ set subfolder=scripts\addons
 for /d %%d in (*.*) do (MKLINK /D "%blender_path%\%version%\%subfolder%\%%d" "%CD%\%%d")
 
 :: Generate file Symlink -Remote Debugger
-MKLINK "%blender_path%\%version%\%subfolder%\remote_debugger.py" %0\remote_debugger.py
+copy remote_debugger.py "%blender_path%\%version%\%subfolder%\remote_debugger.py"
 
 cd ..
