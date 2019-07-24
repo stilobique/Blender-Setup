@@ -16,7 +16,7 @@ bl_info = {
     'name': 'Remote debugger',
     'author': 'Sybren A. Stüvel',
     'version': (0, 3),
-    'blender': (2, 75, 0),
+    'blender': (2, 80, 0),
     'location': 'Press [Space], search for "debugger"',
     'category': 'Development',
 }
@@ -32,14 +32,14 @@ class DebuggerAddonPreferences(AddonPreferences):
     # when defining this in a submodule of a python package.
     bl_idname = __name__
 
-    eggpath = StringProperty(
+    eggpath: StringProperty(
         name='Path of the PyCharm egg file',
         description='Make sure you select the py3k egg',
         subtype='FILE_PATH',
         default='pycharm-debug-py3k.egg'
     )
 
-    pydevpath = StringProperty(
+    pydevpath: StringProperty(
         name='Path of the PyDev pydevd.py file',
         subtype='FILE_PATH',
         default='pydevd.py'
@@ -60,8 +60,8 @@ class DEBUG_OT_connect_debugger_pycharm(bpy.types.Operator):
     def execute(self, context):
         import sys
 
-        user_preferences = context.user_preferences
-        addon_prefs = user_preferences.addons[__name__].preferences
+        preferences = context.preferences
+        addon_prefs = preferences.addons[__name__].preferences
 
         eggpath = os.path.abspath(addon_prefs.eggpath)
 
