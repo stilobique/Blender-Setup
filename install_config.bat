@@ -7,6 +7,5 @@ set ConfigFolder=%blender_path%\%version%\config\
 :: Generate all Symlink folder
 set Repo=%CD%\blender-config
 
-
-MKLINK /D "%ConfigFolder%" "%Repo%"
+MKLINK /D /J "%ConfigFolder%" "%Repo%"
 

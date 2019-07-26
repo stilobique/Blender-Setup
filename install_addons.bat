@@ -11,7 +11,7 @@ if not exist "%TestFolder2%" mkdir "%TestFolder2%"
 
 :: Generate all Symlink folder
 set subfolder=scripts\addons
-for /d %%d in (*.*) do (MKLINK /D "%blender_path%\%version%\%subfolder%\%%d" "%CD%\%%d")
+for /d %%d in (*.*) do (MKLINK /D /J "%blender_path%\%version%\%subfolder%\%%d" "%CD%\%%d")
 
 :: Generate file Symlink -Remote Debugger
 copy remote_debugger.py "%blender_path%\%version%\%subfolder%\remote_debugger.py"
