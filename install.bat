@@ -16,4 +16,7 @@ call install_preset.bat %version% %blender_path%
 :: Install Modules
 call install_modules.bat %version% %blender_path%
 
+:: Install Config Files
+call install_config.bat %version% %blender_path%
+
 pause
