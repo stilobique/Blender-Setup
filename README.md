@@ -12,7 +12,9 @@ This bat included :
 
 # Submodules Addons
 ## Advanced Modifier
-More operator to work with all Modifier.
+More operator to work with all Modifiers.
+
+Pie menu shortcut : Ctrl + Shift + T
 
 ## GoB
 External Addon, fix the splash screen icon.
