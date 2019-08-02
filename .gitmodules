@@ -34,3 +34,6 @@
 [submodule "blender-modules/pyblish"]
 	path = blender-modules/pyblish
 	url = git@github.com:pyblish/pyblish-base.git
+[submodule "blender-addons/Lock-Viewport"]
+	path = blender-addons/Lock-Viewport
+	url = git@gitlab.com:stilobique-blender-addons/lock-viewport.git
