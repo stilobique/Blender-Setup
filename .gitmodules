@@ -4,9 +4,6 @@
 [submodule "blender-addons/Advanced-Modifiers"]
 	path = blender-addons/Advanced-Modifiers
 	url = git@gitlab.com:stilobique-blender-addons/Advanced-Modifiers.git
-[submodule "blender-addons/GoB"]
-	path = blender-addons/GoB
-	url = git@gitlab.com:stilobique-blender-addons/GoB.git
 [submodule "blender-addons/Icon-Header"]
 	path = blender-addons/Icon-Header
 	url = git@gitlab.com:stilobique-blender-addons/Icon-Header.git
