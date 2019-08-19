@@ -31,3 +31,6 @@
 [submodule "blender-addons/Lock-Viewport"]
 	path = blender-addons/Lock-Viewport
 	url = git@gitlab.com:stilobique-blender-addons/lock-viewport.git
+[submodule "blender-addons/GoB"]
+	path = blender-addons/GoB
+	url = git@github.com:JoseConseco/GoB.git
