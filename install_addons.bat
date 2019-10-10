@@ -13,7 +13,10 @@ if not exist "%TestFolder2%" mkdir "%TestFolder2%"
 set subfolder=scripts\addons
 for /d %%d in (*.*) do (MKLINK /D /J "%blender_path%\%version%\%subfolder%\%%d" "%CD%\%%d")
 
-:: Generate file Symlink -Remote Debugger
+:: Generate file Symlink
+:: --Remote Debugger
+:: --Uv Tube Unwrap
 copy remote_debugger.py "%blender_path%\%version%\%subfolder%\remote_debugger.py"
+copy remote_debugger.py "%blender_path%\%version%\%subfolder%\uv_tube_unwrap.py"
 
 cd ..
