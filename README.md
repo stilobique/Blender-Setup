@@ -1,7 +1,5 @@
 # Blender-Addons
-All of my blender addons used
-
-This repo contains my personal addons ; a lot of him need more work and a simple description or video to explain this function. If you want test-it don't be afraid, open an issues if you find an error, a bug or anything.
+All of my blender add-ons used are added on this folder, it a simple copy or a submodule from Github/Gitlab.
 
 # Install
 Launch the Install.bat to setup all addons. 
