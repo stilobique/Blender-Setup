@@ -34,3 +34,6 @@
 [submodule "blender-addons/GoB"]
 	path = blender-addons/GoB
 	url = git@github.com:JoseConseco/GoB.git
+[submodule "blender-addons/UvSquares"]
+	path = blender-addons/UvSquares
+	url = git@github.com:Radivarig/UvSquares.git
