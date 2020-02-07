@@ -33,7 +33,7 @@
 	url = git@gitlab.com:stilobique-blender-addons/lock-viewport.git
 [submodule "blender-addons/GoB"]
 	path = blender-addons/GoB
-	url = git@github.com:JoseConseco/GoB.git
+	url = git@gitlab.com:stilobique-blender-addons/gob.git
 [submodule "blender-addons/UvSquares"]
 	path = blender-addons/UvSquares
 	url = git@github.com:Radivarig/UvSquares.git
