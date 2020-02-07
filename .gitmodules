@@ -37,3 +37,6 @@
 [submodule "blender-addons/UvSquares"]
 	path = blender-addons/UvSquares
 	url = git@github.com:Radivarig/UvSquares.git
+[submodule "blender-addons/Retopoflow"]
+	path = blender-addons/Retopoflow
+	url = git@github.com:CGCookie/retopoflow.git
