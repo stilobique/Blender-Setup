@@ -3,6 +3,7 @@ from setup_notification import info_install
 # Step Install Import
 from setup_addons import addons_symlink
 from setup_config import config_symlink
+from setup_modules import modules_symlink
 
 print('choose your blender version (2.xx) :')
 bl_version = input()
@@ -22,6 +23,10 @@ if bl_version:
     info_install('Blender Config', msg)
 
     # modules
+    install_module = modules_symlink(bl_version)
+    msg = 'All modules has added'
+    info_install('Blender Modules', msg)
+
     # preset
 
 else:
