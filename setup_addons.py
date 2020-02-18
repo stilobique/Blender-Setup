@@ -2,7 +2,6 @@ from os import getenv, listdir, makedirs, symlink
 from os.path import abspath, dirname, join, isdir, isfile
 
 
-# Install all folder symlink links
 def addons_symlink(bld_version):
     src_folder = join(dirname(abspath(__file__)), 'blender-addons')
     dst_folder = join(getenv('APPDATA'), 'Blender Foundation', 'Blender', bld_version, 'scripts', 'addons')
@@ -18,6 +17,3 @@ def addons_symlink(bld_version):
         return True, count_addons
     except TypeError or FileNotFoundError:
         return False
-
-
-# Install file symlink links
