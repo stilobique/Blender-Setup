@@ -15,17 +15,19 @@ if bl_version:
     install_addon = addons_symlink(bl_version)
     msg = '{0} addons has install.'.format(install_addon[1])
     info_install('B3D Addons Install', msg)
-    print('All Addons has install.')
+    print(msg)
 
     # config
     install_config = config_symlink(bl_version)
     msg = 'The config folder has install'
     info_install('Blender Config', msg)
+    print(msg)
 
     # modules
     install_module = modules_symlink(bl_version)
     msg = 'All modules has added'
     info_install('Blender Modules', msg)
+    print(msg)
 
     # preset
 
