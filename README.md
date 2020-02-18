@@ -1,5 +1,5 @@
-# Blender-Addons
-All of my blender add-ons used are added on this folder, it a simple copy or a submodule from Github/Gitlab.
+This repo contains my Blender setup, addons modules and more.
+The installer work with Python  3.8.
 
 # Install
 Launch the Install.bat to setup all addons. 
