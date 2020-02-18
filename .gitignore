@@ -105,5 +105,4 @@ substancebridge_updater/
 /.idea/
 
 desktop.ini
-/blender-config/bookmarks.txt
-/blender-config/recent-files.txt
+/blender-config/*.txt
